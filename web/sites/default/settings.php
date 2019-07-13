@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'D_ds_JINnSwipOgjr1BZU2v9OJH1MlUOvcEyF_Ey-tOSiipGQIGDUzh-KOTCO_VJ5FRGgz2p2A';
+$settings['hash_salt'] = 'zPMK85wKV-8QvDz4HcCRFQEd_8GL7yVPLF84f7hxIZlfU6tTbe30e3ypjmiTSHfmZyxvShl2Xw';
 
 /**
  * Deployment identifier.
@@ -779,7 +779,7 @@ $settings['entity_update_backup'] = TRUE;
 # }
 $config_directories['sync'] = '../config/sync';
 $databases['default']['default'] = array (
-  'database' => 'lone_front',
+  'database' => 'lonefront_final',
   'username' => 'root',
   'password' => '123456',
   'prefix' => '',
