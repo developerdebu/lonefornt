@@ -1,0 +1,20 @@
+uuid: b6430ac1-5b92-4f0f-8bb2-4bb9a066b655
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lonefornt
+_core:
+  default_config_hash: 1mj4y0AlpEZscC8-aazIurmQfu0_48HwsB-h0dckrZM
+id: lonefornt_page_title
+theme: lonefornt
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

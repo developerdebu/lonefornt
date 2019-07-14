@@ -1,0 +1,15 @@
+name: Lonefornt
+type: theme
+description: 'Lonefornt subtheme'
+core: 8.x
+libraries:
+  - lonefornt/global-styling
+base theme: bootstrap4
+regions:
+  header: Header
+  navigation: 'Header navigation'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
