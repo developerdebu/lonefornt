@@ -1,0 +1,31 @@
+uuid: 29b05799-ba14-482f-acff-320611ad87c4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f9443949-9a7a-4410-a9e0-7d0cb5179a1a'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: videofullwidth
+theme: lonefornt
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:f9443949-9a7a-4410-a9e0-7d0cb5179a1a'
+settings:
+  id: 'block_content:f9443949-9a7a-4410-a9e0-7d0cb5179a1a'
+  label: 'Video Full Width'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

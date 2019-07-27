@@ -1,0 +1,22 @@
+uuid: 5cbab539-8c68-4555-b71d-1b50b6ebbfcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.why_loanfront
+  module:
+    - text
+id: node.why_loanfront.body
+field_name: body
+entity_type: node
+bundle: why_loanfront
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,31 @@
+uuid: c02b7fb5-78b6-47cb-95a1-e12b75c9bb29
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bc9a4c97-8f65-4d0f-bf02-960d90b08850'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: whichcitiesservice
+theme: lonefornt
+region: content
+weight: 2
+provider: null
+plugin: 'block_content:bc9a4c97-8f65-4d0f-bf02-960d90b08850'
+settings:
+  id: 'block_content:bc9a4c97-8f65-4d0f-bf02-960d90b08850'
+  label: 'Which Cities Service'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

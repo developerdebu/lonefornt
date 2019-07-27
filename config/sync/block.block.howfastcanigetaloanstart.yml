@@ -1,0 +1,31 @@
+uuid: c683aec1-bb0b-4fcd-80fc-7b664603fec6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8861c151-9111-4c6f-950d-592a96d9a662'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: howfastcanigetaloanstart
+theme: lonefornt
+region: content
+weight: 1
+provider: null
+plugin: 'block_content:8861c151-9111-4c6f-950d-592a96d9a662'
+settings:
+  id: 'block_content:8861c151-9111-4c6f-950d-592a96d9a662'
+  label: 'How fast can I get a loan Start'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 4ccfda53-3643-4d10-b916-d54317aacf9e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3b5bdc62-2752-4fb9-9442-ae8d67d62eeb'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: whatisloanfrontstart
+theme: lonefornt
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:3b5bdc62-2752-4fb9-9442-ae8d67d62eeb'
+settings:
+  id: 'block_content:3b5bdc62-2752-4fb9-9442-ae8d67d62eeb'
+  label: 'What is LoanFront Start'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

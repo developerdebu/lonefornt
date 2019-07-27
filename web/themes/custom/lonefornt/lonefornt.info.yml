@@ -1,6 +1,6 @@
-name: Lonefornt
+name: LoneFront
 type: theme
-description: 'Lonefornt subtheme'
+description: 'Theme for Lonefront'
 core: 8.x
 libraries:
   - lonefornt/global-styling
@@ -8,8 +8,8 @@ base theme: bootstrap4
 regions:
   header: Header
   navigation: 'Header navigation'
-  breadcrumb: Breadcrumbs
+  banner: Banner
   content: 'Main content'
-  sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
+  #sidebar_first: 'Sidebar first'
+  #sidebar_second: 'Sidebar second'
   footer: Footer

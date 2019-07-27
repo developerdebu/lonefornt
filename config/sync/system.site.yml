@@ -1,11 +1,11 @@
 uuid: eb4ffe71-bfa3-4122-8204-b7f8c7082162
-name: 'Drush Site-Install'
-mail: admin@example.com
+name: 'Lone fornt'
+mail: developer.debu@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

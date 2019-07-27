@@ -1,0 +1,31 @@
+uuid: 04b989a1-1f9e-4d4c-9be8-8549a9d4d54e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:87610aeb-de9d-4689-b26d-a0aee5e083c9'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: documentrequired
+theme: lonefornt
+region: content
+weight: 4
+provider: null
+plugin: 'block_content:87610aeb-de9d-4689-b26d-a0aee5e083c9'
+settings:
+  id: 'block_content:87610aeb-de9d-4689-b26d-a0aee5e083c9'
+  label: 'Document Required'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

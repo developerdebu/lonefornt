@@ -1,4 +1,22 @@
 global-styling:
+  js:
+    js/common.js: {}
+    
   css:
     theme:
       css/style.css: {}
+      css/custom.css: {}
+      css/responsive.css: {}
+      
+  bootstrap_cdn:
+  js:
+    //code.jquery.com/jquery-3.3.1.slim.min.js": {}
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js : {}
+    //cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js : {}
+    
+  css:
+    //stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css: {}
+    //cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css: {}
+    //fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700 : {}
+    //use.fontawesome.com/releases/v5.8.1/css/all.css : {}

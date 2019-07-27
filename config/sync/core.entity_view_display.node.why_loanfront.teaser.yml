@@ -1,0 +1,30 @@
+uuid: dcd69dbb-20d7-404d-843d-aae5364b1037
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.why_loanfront.body
+    - node.type.why_loanfront
+  module:
+    - text
+    - user
+id: node.why_loanfront.teaser
+targetEntityType: node
+bundle: why_loanfront
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

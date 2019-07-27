@@ -1,6 +1,6 @@
 uuid: 94f9b741-910a-49d8-9ee8-df823bf68636
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: B4RbOEFqUHi5Wx38pRiZzYXo1hhKzCpF50HCAvpOYf4
 id: lonefornt_breadcrumbs
 theme: lonefornt
-region: breadcrumb
+region: header
 weight: 0
 provider: null
 plugin: system_breadcrumb_block
