@@ -12,7 +12,7 @@ dependencies:
 id: howfastcanigetaloanstart
 theme: lonefornt
 region: content
-weight: 1
+weight: 0
 provider: null
 plugin: 'block_content:8861c151-9111-4c6f-950d-592a96d9a662'
 settings:

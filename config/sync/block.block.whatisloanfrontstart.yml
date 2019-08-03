@@ -12,7 +12,7 @@ dependencies:
 id: whatisloanfrontstart
 theme: lonefornt
 region: content
-weight: -2
+weight: -3
 provider: null
 plugin: 'block_content:3b5bdc62-2752-4fb9-9442-ae8d67d62eeb'
 settings:

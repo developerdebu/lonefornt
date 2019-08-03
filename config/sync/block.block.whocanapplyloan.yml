@@ -12,7 +12,7 @@ dependencies:
 id: whocanapplyloan
 theme: lonefornt
 region: content
-weight: 3
+weight: 2
 provider: null
 plugin: 'block_content:ee91e3e7-f87d-4f70-81f4-e96b84125220'
 settings:
