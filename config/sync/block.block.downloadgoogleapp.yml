@@ -1,0 +1,31 @@
+uuid: 432bb6eb-2429-4919-892a-51c595a7fdb5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b7a4fa5d-2d8c-4b3f-a382-0ad5802f9b0f'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: downloadgoogleapp
+theme: lonefornt
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:b7a4fa5d-2d8c-4b3f-a382-0ad5802f9b0f'
+settings:
+  id: 'block_content:b7a4fa5d-2d8c-4b3f-a382-0ad5802f9b0f'
+  label: 'Download Google App'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about-us
+    negate: false
+    context_mapping: {  }

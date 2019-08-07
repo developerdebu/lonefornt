@@ -12,7 +12,7 @@ dependencies:
 id: whichcitiesservice
 theme: lonefornt
 region: content
-weight: 4
+weight: 8
 provider: null
 plugin: 'block_content:bc9a4c97-8f65-4d0f-bf02-960d90b08850'
 settings:

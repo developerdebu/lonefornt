@@ -12,7 +12,7 @@ dependencies:
 id: documentrequired
 theme: lonefornt
 region: content
-weight: 3
+weight: 4
 provider: null
 plugin: 'block_content:87610aeb-de9d-4689-b26d-a0aee5e083c9'
 settings:
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /
+    pages: "/\r\n/how-it-works"
     negate: false
     context_mapping: {  }

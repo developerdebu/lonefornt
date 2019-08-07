@@ -1,23 +1,23 @@
-uuid: c683aec1-bb0b-4fcd-80fc-7b664603fec6
+uuid: 1514591a-cd1b-4556-92d2-29250bfca2b5
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:8861c151-9111-4c6f-950d-592a96d9a662'
+    - 'block_content:basic:f4bfbe2c-8d37-43bc-8d76-64b12dd216df'
   module:
     - block_content
     - system
   theme:
     - lonefornt
-id: howfastcanigetaloanstart
+id: howfastcanigetaloan
 theme: lonefornt
 region: content
-weight: 0
+weight: 3
 provider: null
-plugin: 'block_content:8861c151-9111-4c6f-950d-592a96d9a662'
+plugin: 'block_content:f4bfbe2c-8d37-43bc-8d76-64b12dd216df'
 settings:
-  id: 'block_content:8861c151-9111-4c6f-950d-592a96d9a662'
-  label: 'How fast can I get a loan Start'
+  id: 'block_content:f4bfbe2c-8d37-43bc-8d76-64b12dd216df'
+  label: 'How fast can I get a loan?'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /
+    pages: "/about-us\r\n/why-loan-front"
     negate: false
     context_mapping: {  }

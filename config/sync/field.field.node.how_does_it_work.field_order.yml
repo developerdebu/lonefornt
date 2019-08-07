@@ -1,0 +1,19 @@
+uuid: 8e1f6e88-5797-4970-a6ea-923d710e1842
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.how_does_it_work
+id: node.how_does_it_work.field_order
+field_name: field_order
+entity_type: node
+bundle: how_does_it_work
+label: Order
+description: 'Add numeric value here for ordering the contents. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

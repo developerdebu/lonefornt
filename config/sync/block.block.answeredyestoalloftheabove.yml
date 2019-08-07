@@ -1,0 +1,31 @@
+uuid: cd2c61fd-3c4f-43bb-b6b9-78ecebef720d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2512c766-0efc-44a6-8554-b7e1b0ce442f'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: answeredyestoalloftheabove
+theme: lonefornt
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:2512c766-0efc-44a6-8554-b7e1b0ce442f'
+settings:
+  id: 'block_content:2512c766-0efc-44a6-8554-b7e1b0ce442f'
+  label: 'Answered ''yes'' to all of the above?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /how-it-works
+    negate: false
+    context_mapping: {  }

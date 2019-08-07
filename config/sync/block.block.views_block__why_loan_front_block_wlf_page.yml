@@ -1,0 +1,30 @@
+uuid: a2067568-93c1-4043-a51a-98dad7561c62
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.why_loan_front
+  module:
+    - system
+    - views
+  theme:
+    - lonefornt
+id: views_block__why_loan_front_block_wlf_page
+theme: lonefornt
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:why_loan_front-block_wlf_page'
+settings:
+  id: 'views_block:why_loan_front-block_wlf_page'
+  label: 'WHY LoanFront'
+  provider: views
+  label_display: '0'
+  views_label: 'WHY LoanFront'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /why-loan-front
+    negate: false
+    context_mapping: {  }

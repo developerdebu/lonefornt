@@ -1,0 +1,23 @@
+uuid: 701a8e80-cd7b-479e-8715-94286b78bd28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_external_link
+    - node.type.product
+  module:
+    - link
+id: node.product.field_external_link
+field_name: field_external_link
+entity_type: node
+bundle: product
+label: 'External link'
+description: 'Add external here for Check Your Eligibility. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

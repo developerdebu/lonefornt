@@ -1,0 +1,31 @@
+uuid: 30d6853f-fc4c-4881-9aff-bcf7ba70d2ad
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d93c513c-e67b-465a-ba9c-64c4f32fe31c'
+  module:
+    - block_content
+    - system
+  theme:
+    - lonefornt
+id: whichcitiesdoesloanfrontservice
+theme: lonefornt
+region: content
+weight: 5
+provider: null
+plugin: 'block_content:d93c513c-e67b-465a-ba9c-64c4f32fe31c'
+settings:
+  id: 'block_content:d93c513c-e67b-465a-ba9c-64c4f32fe31c'
+  label: 'Which cities does LoanFront service?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/\r\n/about-us\r\n/why-loan-front\r\n/how-it-works"
+    negate: false
+    context_mapping: {  }
